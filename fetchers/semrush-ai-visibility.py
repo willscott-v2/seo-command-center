@@ -43,7 +43,7 @@ def main():
     if not key:
         sys.exit("Set SEMRUSH_API_KEY first (export SEMRUSH_API_KEY=...).")
 
-    domain = sys.argv[1] if len(sys.argv) > 1 else "searchinfluence.com"
+    domain = sys.argv[1] if len(sys.argv) > 1 else "example.com"
     month = sys.argv[2] if len(sys.argv) > 2 else "2026-05"
     country = sys.argv[3] if len(sys.argv) > 3 else "US"   # API wants "country", not "region"
 
