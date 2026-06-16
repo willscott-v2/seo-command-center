@@ -6,7 +6,7 @@ read and cross-reference it. No third-party packages — standard library only.
 
 Usage:
     export SEMRUSH_API_KEY=...            # your key (Semrush AI Visibility API access required)
-    python fetchers/semrush-ai-visibility.py searchinfluence.com 2026-05 US
+    python fetchers/semrush-ai-visibility.py example.com 2026-05 US
 
 If you don't have API access, skip this — drop a CSV export into data/ai-visibility/ instead.
 The class works either way.
